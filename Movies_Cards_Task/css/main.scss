@@ -1,0 +1,64 @@
+body{
+    font-family: sans-serif;
+    background-color: 
+    #ffffff;
+}
+.all-wrapper {
+    padding: 60px 100px;
+    .card{
+        padding: 20px;
+        border-radius: 5px;
+    .card_desc{
+        font-size: 18px;
+        color: black;
+    }
+    }
+    .movies_card{
+        padding-bottom:20px ;
+        height: 100%;
+        .movies_card_desc{
+            padding: 10px 10px 20px 10px;
+            text-align: center;
+            border-style: solid;
+            border-radius: 2px;
+            border-color: #ccc;
+            border-width: 1px;
+            
+            height: 100px;
+        }
+    }
+.general_btn{
+    color: #ccc;
+    background-color: white;
+    border-width: 1px;
+    border-color: lightgray;
+    border-radius: 5px;
+}
+}
+.modal{
+
+    .close{
+      position: absolute;
+      top: -40px;
+      right: 20px;
+      background-color: transparent;
+      font-size: 28px;
+      color: #ccc;
+      border-style: none;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .all-wrapper {
+        padding: 60px 30px;
+    }
+    
+    .close{
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        background-color: transparent;
+        font-size: 28px;
+        color: black;
+        border-style: none;
+      }
+  }
